@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.auto{
+    background-color: blue;
+    width: 100%;
+    height: 60px;
+}
+
+h2{
+    color: red;
+    font-size: larger;
+    font-weight: bolder;
+    position: relative;
+    left: 30px;
+    top: 17px;
+}
+p{
+    color: bisque;
+    font-size: x-small;
+    position: relative;
+    left: 53px;
+    top: 15px;
+}
+.fas{
+    color: aliceblue;
+    position: relative;
+    top: 7px;
+}
+.bike li{
+    display: inline-block;
+    
+}
+.bike li a{
+    display: inline-block;
+    position: relative;
+    bottom: 27px;
+    left: 300px;
+    margin-left: 30px;
+    color: white;
+    width: 120px;
+    height: 48px;
+    text-align: center;
+    padding-top: 16px;
+}
+.bike li a:hover{
+    background-color: darkblue;
+}
+.motor{
+    position: absolute;
+    display: none;
+}
+.motor li{
+    display: block;
+}
+.bike li:hover .motor{
+    display: block;
+}
+.motor li a{
+    background-color: blue;
+    position: relative;
+}
+.motor li a:hover{
+    background-color: gold;
+}
+button{
+    background-color: antiquewhite;
+    color: black;
+    position: relative;
+    left: 1200px;
+    bottom: 72px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.boat{
+    position: absolute;
+    display: none;
+}
+.motor li:hover .boat{
+    display: block;
+}
+.boat li {
+    display: block;
+}
+.boat li a{
+    position: relative;
+    display: block;
+    left: 420px;
+    bottom: 80px;
+
+}
+.boat li a:hover{
+    background-color: aqua;
+}
+header{
+    background-color: lightblue;
+    height: 800px;
+}
